@@ -1,0 +1,134 @@
+* {margin: 0;}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigacija {
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.naslov h1 {
+    color: blue;
+}
+
+.linkovi a {
+    color: black;
+    text-decoration: none;
+    padding: 16px 10px;
+}
+
+.getstarted {
+    border: 1px solid blue;
+    border-radius: 20px;
+    
+}
+.linkovi span {
+    color: blue;
+}
+.main {
+    display: flex;
+}
+.text {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.text h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.text p {
+    line-height: 2;
+    font-size: 15px;
+
+}
+.slika {
+    margin-top: 70px;
+}
+.fa-check {
+    color: blue;
+}
+.button {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.btn1 {
+    background-color: rgb(0, 76, 255);
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 13px;
+    
+}
+
+.btn1 a {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+   
+   
+}
+
+.btn2 {
+    border: 2px blue solid;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+.btn2  {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.btn2 a {
+    text-decoration: none;
+}
+.footer2 span {
+    color: blue;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(223, 219, 219);
+    align-items: center;
+
+}
+.ikonice i {
+    color: #3F3C6B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 8px;
+    background:rgba(240,41,48,0.05);
+
+}
+.footer-1 {
+    margin-left: 150px;
+}
+.ikonice {
+    margin-right: 150px;
+}
